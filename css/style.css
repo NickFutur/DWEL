@@ -1,0 +1,114 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        font-size: 10px;
+    }
+    
+    .all-text {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .text-link:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    
+    .wrap {
+        margin: 0 auto;
+        width: 1440px;
+    }
+    
+    .wrap_head {
+        display: flex;
+        justify-content: space-between;
+        height: 105px;
+        align-items: center;
+    }
+    
+    .wrap_head__block a {
+        margin-left: 20px;
+    }
+    
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    
+    .wrapper-video {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #prj {
+        margin-bottom: 40px;
+    }
+    
+    .block-text {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3rem;
+        line-height: 24px;
+        color: #000000;
+    }
+    
+    .content__main-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content__block {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    
+    .content__block:hover img {
+        transform: scale(1.5);
+        transition: 1s;
+    }
+    
+    .content__block div {
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .content__block h4 {
+        margin-top: 20px;
+    }
+    
+    .main-footer {
+        display: flex;
+        justify-content: space-between;
+        height: 275px;
+        align-items: center;
+    }
+    
+    .main-footer__block2 {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    
+    .main-footer__block-in-block {
+        display: flex;
+        flex-direction: column;
+    }
