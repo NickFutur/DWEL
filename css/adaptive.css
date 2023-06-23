@@ -5,6 +5,15 @@
     }
 }
 
+@media only screen and (max-width: 1350px) {
+    .content__main-block {
+        justify-content: center;
+    }
+    .content__block {
+        min-width: 45vw;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .content {
         width: 99%;
